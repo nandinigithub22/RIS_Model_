@@ -33,8 +33,8 @@ Gt = 1.0  # Gain of Transmitter antenna
 Gr = 1.0  # Gain of Receiver antenna
 Ge_mn = 0.9  # Gain of the element Em,n
 Gamma_mn = 0.5  # Reflection coefficient of the element Em,n
-eff = 0.99  # Efficiency
-N_p = 100 #No of packets
+eff = 0.8  # Efficiency
+N_p = 1000 #No of packets
 
 # RIS element parameters
 M = 4  # Number of rows
