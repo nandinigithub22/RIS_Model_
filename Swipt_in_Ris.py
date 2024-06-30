@@ -11,10 +11,10 @@ def spherical_to_cartesian(d, theta, phi):
     - theta : Zenith angle in radians
     - phi: Azimuth angle in radians
     """
-    cx = d * np.sin(theta) * np.cos(phi)
-    cy = d * np.sin(theta) * np.sin(phi)
-    cz = d * np.cos(theta)
-    return cx, cy, cz
+    Cx = d * np.sin(theta) * np.cos(phi)
+    Cy = d * np.sin(theta) * np.sin(phi)
+    Cz = d * np.cos(theta)
+    return Cx, Cy, Cz
 
 # Function to calculate distance between two points in Cartesian coordinates
 
