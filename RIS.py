@@ -34,8 +34,8 @@ def calculate_distance(point1, point2):
 # Constants
 
 Pt = 1.0  # Power Transmitted in Watts
-Gt = 1.0  # Gain of Transmitter antenna
-Gr = 1.0  # Gain of Receiver antenna
+Gt = int(input("Gt :"))  # Gain of Transmitter antenna
+Gr = int(input("Gr :"))  # Gain of Receiver antenna
 Ge_mn = 0.9  # Gain of the element Em,n
 Gamma_mn = 0.5  # Reflection coefficient of the element Em,n
 eff = 0.99  # Efficiency
