@@ -3,6 +3,8 @@ Reconfigurable Intelligent Surfaces (RISs) have emerged as a promising technolog
 What is an RIS?
 An RIS consists of passive reflecting elements that can manipulate electromagnetic waves.
 Unlike traditional reflecting surfaces, RISs actively control their reflection properties based on dynamic wireless environments.
+
+
 ![image](https://github.com/nandinigithub22/RIS_Model_/assets/172033432/53cf4ec6-5277-4a1b-9592-f1b20ee41caa)
 
 
@@ -25,6 +27,8 @@ Time Switching: The receiver alternates between information decoding and energy 
 Antenna Switching: Different antennas or antenna elements are used for information decoding and energy harvesting.
 
 Combining Intelligent Reflecting Surfaces (IRS) and Simultaneous Wireless Information and Power Transfer (SWIPT) in one model can offer significant advantages in wireless communication systems. Here are some key points on the importance of integrating these technologies:
+
+
 ![image](https://github.com/nandinigithub22/RIS_Model_/assets/172033432/ccd7e2bb-340b-4a07-857d-2238792bf08c)
 
 Enhanced Energy Efficiency:
