@@ -10,7 +10,7 @@ rician_factor = 1  # Example Rician factor
 # Function definitions (unchanged from previous context)
 
 def rician_channel(size, rician_factor):
-    K = rician_factor
+    K = rician_factor 
     los_component = (np.random.randn(*size) + 1j * np.random.randn(*size)) * np.sqrt(K / (K + 1))
     nlos_component = (np.random.randn(*size) + 1j * np.random.randn(*size)) * np.sqrt(1 / (K + 1))
     return los_component + nlos_component
@@ -144,6 +144,6 @@ plt.xlabel('Rmin,k')
 plt.ylabel('Average EE [bits/Hz]')
 plt.title('Average EE vs Rmin,k')
 plt.legend()
-plt.grid(True)
+
 plt.tight_layout()
 plt.show()
