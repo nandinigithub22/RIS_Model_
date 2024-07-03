@@ -42,7 +42,7 @@ plt.plot(Pmax_values, avg_efficiencies, marker='o', linestyle='-', color='b', la
 for i in range(N_simulations):
     plt.plot(Pmax_values, cumulative_efficiencies[i], linestyle='--', alpha=0.5, label=f'Cumulative Efficiency - Simulation {i+1}')
 
-plt.xlabel('Maximum Transmit Power (Pmax) in Watts')
+plt.xlabel('Maximum Transmit Power (Pmax) in Wattts')
 plt.ylabel('Energy Efficiency')
 plt.title('Average and Cumulative Energy Efficiency vs Maximum Transmit Power')
 plt.legend()
