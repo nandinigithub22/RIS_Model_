@@ -30,7 +30,7 @@ fig, ax1 = plt.subplots(figsize=(10, 6))
 # Plotting harvested power on ax1 (left y-axis)
 ax1.plot(Jmin_l_range, harvested_energy_values, marker='o', linestyle='-', color='blue', label='Harvested Power (HP)')
 ax1.set_xlabel('Jmin,l')
-ax1.set_ylabel('Harvested Power (HP)', color='blue')
+ax1.set_ylabel('Harvested Power (HP)', color='red')
 ax1.tick_params(axis='y', labelcolor='blue')
 ax1.grid(True)
 
