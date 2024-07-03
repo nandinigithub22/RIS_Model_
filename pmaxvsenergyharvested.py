@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 MB = 2  # Number of antennas at BS
 KI = 2  # Number of IR nodes
 KE = 4  # Number of ER nodes
-N = 20   # Number of reflecting elements in RIS
+N = 50   # Number of reflecting elements in RIS
 Pmax = 10  # Maximum transmit power available at BS in Watts
 Rmin = 0.2  # Minimum rate for IR nodes in bits/s/Hz
 Jmin = 20e-3  # Minimum harvested energy for ER nodes in Watts
