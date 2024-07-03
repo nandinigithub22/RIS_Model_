@@ -227,7 +227,7 @@ pk = np.random.randn(MB, KI) + 1j * np.random.randn(MB, KI)
 sigma_epsilon = 1e-3
 
 sinr_values, rate_values, sum_rate = compute_sinr_and_rate(hk_b, hk_r, H, Phi, pk, sigma_epsilon)
-
+print("---------------------------------------------------------------------------------------------------------------")
 for k in range(KI):
     print(f"IR node {k + 1}:")
     print(f"  SINR: {sinr_values[k]}")
@@ -270,6 +270,8 @@ energy_efficiency = np.abs(sum_rate / total_power_consumed)
 print("---------------------------------------------------------------------------------------------------------------")
 
 print(f"Total power consumed: {total_power_consumed}")
+
+print("---------------------------------------------------------------------------------------------------------------")
 print(f"Energy efficiency:{energy_efficiency}")
 
 print("****************************************************************************************************************")
