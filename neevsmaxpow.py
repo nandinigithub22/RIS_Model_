@@ -12,7 +12,7 @@ Rmin = 0.2  # Minimum rate for IR nodes in bits/s/Hz
 Jmin = 20e-3  # Minimum harvested energy for ER nodes in Watts
 rician_factor = 1  # Example Rician factor
 sigma_epsilon = 1e-3
-P_owS_B = 20  # dBm
+P_owS_B = 10  # dBm
 P_owS_I = 10  # dBm
 
 N_simulations = 15  # Number of simulations per configuration
