@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Parameters (adjust as needed)
 MB = 2  # Number of antennas at BS
-KI = 2  # Number of IR nodes
+KI = 4  # Number of IR nodes
 rician_factor = 1  # Example Rician factor
 
 # Function definitions (unchanged from previous context)
