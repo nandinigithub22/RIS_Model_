@@ -34,7 +34,7 @@ Gr = 1.0  # Gain of Receiver antenna
 Ge_mn = 0.9  # Gain of the element Em,n
 Gamma_mn = 0.5  # Reflection coefficient of the element Em,n
 eff = 0.8  # Efficiency
-N_p = 1000 #No of packets
+N_p = 100 #No of packets
 
 # RIS element parameters
 M = 4  # Number of rows
@@ -159,6 +159,7 @@ axs[0].set_ylabel('Power Received (W)', fontsize=12)
 axs[0].set_title('Power Received (Friss vs. RIS with Rayleigh Fading)', fontsize=14)
 axs[0].legend(fontsize=10)
 axs[0].grid(True, alpha=0.5)
+
 
 # Plot path loss
 axs[1].plot(distances, path_loss_friss, label='Friss Equation + Rayleigh Fading', marker='o', linestyle='-', color='orange' )
