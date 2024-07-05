@@ -243,8 +243,8 @@ print("-------------------------------------------------------------------------
 
 
 # Define static power used at the BS and RIS
-P_owS_B = 20  # dBm
-P_owS_I = 10  # dBm
+P_owS_B = 10  # dBm
+P_owS_I = 15   # dBm
 
 
 # Function to compute total power consumed
