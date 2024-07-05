@@ -8,7 +8,7 @@ KE = 4  # Number of ER nodes
 N = 50   # Number of reflecting elements in RIS
 Pmax = 10  # Maximum transmit power available at BS in Watts
 Rmin = 0.2  # Minimum rate for IR nodes in bits/s/Hz
-Jmin = 20e-3  # Minimum harvested energy for ER nodes in Watts
+Jmin = 10e-3  # Minimum harvested energy for ER nodes in Watts
 
 # Fixed positions
 position_BS = np.array([0, 0])
