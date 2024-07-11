@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters (adjust as needed)
-MB = 2  # Number of antennas at BS
-KI = 4  # Number of IR nodes
+MB = int(input("Enter MB " )) # Number of antennas at BS
+KI = int(input("Enter KI " ))  # Number of IR nodes
 rician_factor = 1  # Example Rician factor
 
 # Function definitions (unchanged from previous context)
