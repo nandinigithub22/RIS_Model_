@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters
-MB = 2  # Number of antennas at BS
-KI = 3  # Number of IR nodes
+MB = int(input("Enter MB " ))  # Number of antennas at BS
+KI = int(input("Enter KI " ))  # Number of IR nodes
 KE = 4  # Number of ER nodes
 N = 20   # Number of reflecting elements in RIS
 Pmax = 10  # Maximum transmit power available at BS in Watts
