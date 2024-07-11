@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Parameters (assuming values for demonstration)
-MB = 2  # Number of antennas at BS
+MB = int(input("Enter MB " )) # Number of antennas at BS
 KI = 2  # Number of IR nodes
 KE = 4  # Number of ER nodes
 N = 20  # Number of reflecting elements in RIS
